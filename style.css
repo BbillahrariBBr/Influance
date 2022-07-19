@@ -37,6 +37,10 @@ nav a {
 }
 
 /* top part */
+.top {
+    display: block;
+}
+
 .container-top {
     display: flex;
     justify-content: space-between;
@@ -47,10 +51,7 @@ nav a {
     margin-bottom: 100px;
 }
 
-.containe-top-left {
-    width: 582px;
-    height: 270px;
-}
+.containe-top-left {}
 
 .containe-top-left h1,
 p,
@@ -79,4 +80,21 @@ button {
     width: 75%;
 }
 
-.container-bottom-logo {}
+.container-bottom-logo {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid; */
+    border-width: 3px;
+    border-style: solid;
+    border-image:
+        linear-gradient(to left,
+            #C0CCDA, white)1;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    margin-bottom: 100px;
+
+}
