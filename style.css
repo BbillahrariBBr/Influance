@@ -35,3 +35,48 @@ nav a {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+/* top part */
+.container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 100px;
+}
+
+.containe-top-left {
+    width: 582px;
+    height: 270px;
+}
+
+.containe-top-left h1,
+p,
+button {
+    color: #3A3A3A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.containe-top-left p {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.containe-top-left button {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 41px;
+    border: none;
+    padding: 10px;
+}
+
+.containe-top-right img {
+    width: 75%;
+}
+
+.container-bottom-logo {}
